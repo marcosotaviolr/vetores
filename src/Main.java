@@ -247,7 +247,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Digite o número da tabuada:");
         int numero = scanner.nextInt();
-        int[] tabuada = new int[10];
+        int[] tabuada = new int[11];
 
         for (int i = 1; i < tabuada.length; i++) {
             tabuada[i] = numero * i;
